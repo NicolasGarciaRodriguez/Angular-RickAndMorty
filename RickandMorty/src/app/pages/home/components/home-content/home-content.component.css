@@ -1,0 +1,33 @@
+.home-content {
+  overflow-y: hidden;
+  max-height: 100vw;
+  max-width: 100vw;
+}
+
+.home-content .image-main {
+  width: 100%;
+  height: 854px;
+  overflow: hidden;
+}
+
+.home-content .image-main img {
+  width: 100%;
+}
+
+.home-content .image-logo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 800px;
+  position: absolute;
+  top: 350px;
+  right: 550px;
+}
+
+.home-content .image-logo img {
+  width: 100%;
+}
+/*# sourceMappingURL=home-content.component.css.map */

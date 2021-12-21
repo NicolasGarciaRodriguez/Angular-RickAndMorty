@@ -1,0 +1,153 @@
+.character-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 235, 235);
+    padding-bottom: 60px;
+    padding-top: 60px;
+    .character-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+        .card-1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+            .name {
+                width: 100%;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px green solid;
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+                background-color: black;
+                h1 {
+                    color: white;
+                }
+            }
+            .image {
+                border: 2px green solid;
+                padding: 30px;
+                background: radial-gradient(circle, rgba(0,0,0,1) 28%, rgba(141,184,94,1) 100%);
+                border-bottom-left-radius: 10px;
+                img {
+                    border: 2px green solid;
+                    border-radius: 10px;
+                }
+            }
+        }
+        .card-2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 70px;
+            box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+            .info {
+                width: 100%;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px green solid;
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+                background-color: black;
+                h1 {
+                    color: white;
+                }
+            }
+            .status {
+                width: 100%;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px green solid;
+                background-color: black;
+                p {
+                    color: white;
+                }
+            }
+            .species {
+                width: 100%;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px green solid;
+                background-color: black;
+                p {
+                    color: white;
+                }
+            }
+            .gender {
+                width: 100%;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px green solid;
+                background-color: black;
+                p {
+                    color: white;
+                }
+            }
+            .created {
+                width: 100%;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px green solid;
+                background-color: black;
+                p {
+                    color: white;
+                }
+            }
+            .origin {
+                width: 100%;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px green solid;
+                background-color: black;
+                border-bottom-left-radius: 10px;
+                p {
+                    color: white;
+                }
+            }
+        }
+    }
+    .goBack {
+        text-decoration: none;
+        div {
+            border: 2px green solid;
+            border-radius: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            transition-property: background-color;
+            transition-duration: 0.5s;
+            p {
+                color: white;
+            }
+        }
+        div:hover {
+            background-color: white;
+            p {
+                color: black;
+            }
+        }
+    }
+}

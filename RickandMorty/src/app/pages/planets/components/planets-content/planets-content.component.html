@@ -1,0 +1,19 @@
+<div class="planet-content">
+    <div class="planet-card" *ngFor="let planet of planetsList">
+        <div class="planet-name">
+            <h2>{{planet.id}}: {{planet.name}}</h2>
+        </div>
+        <div class="planet-image">
+            <img src="https://es.web.img2.acsta.net/newsv7/19/07/17/10/55/0157432.jpg" alt="{{planet.name}}">
+        </div>
+        <div class="type">
+            <p>{{planet.type}}</p>
+        </div>
+        <div class="dimension">
+            <p>{{planet.dimension}}</p>
+        </div>
+        <div class="created">
+            <p>{{planet.created}}</p>
+        </div>
+    </div>
+</div>

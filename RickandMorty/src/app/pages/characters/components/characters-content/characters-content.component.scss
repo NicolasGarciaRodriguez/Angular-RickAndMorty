@@ -1,0 +1,74 @@
+.character-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(243, 235, 235);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    .character-card {
+        width: 450px;
+        height: 500px;
+        padding: 50px;
+        transition-property: height;
+        transition-duration: 0.5s;
+        .character-name {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            border: 2px green solid;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            background-color: black;
+            box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+            h2 {
+                color: white;
+            }
+        }
+        .character-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px green solid;
+            padding: 30px;
+            background: rgb(0,0,0);
+            background: radial-gradient(circle, rgba(0,0,0,1) 28%, rgba(141,184,94,1) 100%);
+            box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+            img {
+                border: 2px green solid;
+                border-radius: 10px;
+            }
+        }
+        a {
+            text-decoration: none;
+            .detail-link {
+                border: 2px green solid;
+                border-bottom-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+                box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+                transition-property: background-color;
+                transition-duration: 0.5s;
+                p {
+                    color: white;
+                    font-size: 1.3rem;
+                    text-decoration: none;
+                }
+            }
+            .detail-link:hover {
+                background-color: white;
+                p {
+                    color: black;
+                }
+            }
+        }
+
+    }
+    .character-card:hover {
+        height: 550px;
+    }
+}

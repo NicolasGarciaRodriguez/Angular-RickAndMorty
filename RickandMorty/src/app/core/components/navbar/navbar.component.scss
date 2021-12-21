@@ -1,0 +1,126 @@
+nav {
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    ul {
+        display: flex;
+        list-style: none;
+        .home {
+            text-decoration: none;
+            .home-div {
+                align-items: center;
+                justify-content: center;
+                background-color: black;
+                width: 200px;
+                transition-property: background-color;
+                transition-duration: 0.5s;
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 40px;
+                    .home-text {
+                        color: white;
+                        font-size: 1.5rem;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .home-div:hover {
+                background-color: white;
+                li {
+                    .home-text {
+                        color: black;
+                    }
+                }
+            }
+        }
+        .characters {
+            text-decoration: none;
+            .characters-div {
+                align-items: center;
+                justify-content: center;
+                width: 200px;
+                transition-property: background-color;
+                transition-duration: 0.5s;
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 40px;
+                    p {
+                        color: black;
+                        text-decoration: none;
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .characters-div:hover {
+                background-color: black;
+                li {
+                    p {
+                        color: white;
+                    }
+                }
+            }
+        }
+        .episodes {
+            text-decoration: none;
+            .episodes-div {
+                align-items: center;
+                justify-content: center;
+                width: 200px;
+                transition-property: background-color;
+                transition-duration: 0.5s;
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 40px;
+                    p {
+                        color: black;
+                        text-decoration: none;
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .episodes-div:hover {
+                background-color: black;
+                li {
+                    p {
+                        color: white;
+                    }
+                }
+            }
+        }
+        .planets {
+            text-decoration: none;
+            .planets-div {
+                align-items: center;
+                justify-content: center;
+                width: 200px;
+                transition-property: background-color;
+                transition-duration: 0.5s;
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 40px;
+                    p {
+                        color: black;
+                        text-decoration: none;
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .planets-div:hover {
+                background-color: black;
+                li {
+                    p {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

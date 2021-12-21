@@ -1,0 +1,38 @@
+<div class="character-detail">
+    <div class="character-card">
+        <div class="card-1">
+            <div class="name">
+                <h1>{{dataCharacter.name}}</h1>
+            </div>
+            <div class="image">
+                <img src="{{dataCharacter.image}}" alt="{{dataCharacter.name}}">
+            </div>
+        </div>
+        <div class="card-2">
+            <div class="info">
+                <h1>INFO</h1>
+            </div>
+            <div class="status">
+                <p>STATUS: {{dataCharacter.status}}</p>
+            </div>
+            <div class="species">
+                <p>SPECIES: {{dataCharacter.species}}</p>
+            </div>
+            <div class="gender">
+                <p>GENDER: {{dataCharacter.gender}}</p>
+            </div>
+            <div class="created">
+                <p>CREATED: {{dataCharacter.created}}</p>
+            </div>
+            <div class="origin">
+                <p>ORIGIN: {{dataCharacter.origin.name}}</p>
+            </div>
+        </div>
+    </div>
+    <a class="goBack" href="/characters">
+        <div>
+            <p>Go Back!</p>
+        </div>
+    </a>
+</div>
+

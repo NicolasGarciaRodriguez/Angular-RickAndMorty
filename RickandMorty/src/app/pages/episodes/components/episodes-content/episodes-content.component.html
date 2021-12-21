@@ -1,0 +1,19 @@
+<div class="episode-content">
+    <div class="episode-card" *ngFor="let episode of episodeList">
+        <div class="episode-name">
+            <h2>{{episode.id}}: {{episode.name}}</h2>
+        </div>
+        <div class="episode-image">
+            <img src="https://images.ctfassets.net/zufa6rs33wd9/opmoKkyR8cAcoCMIAkWWs/87889ff689f1b96bfee81e3885bf13cb/qbsygspqfzhso5aqmurq">
+        </div>
+        <div class="date">
+            <p>{{episode.air_date}}</p>
+        </div>
+        <div class="episode">
+            <p>{{episode.episode}}</p>
+        </div>
+        <div class="created">
+            <p>{{episode.created}}</p>
+        </div>
+    </div>
+</div>

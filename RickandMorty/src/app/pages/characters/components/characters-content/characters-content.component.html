@@ -1,0 +1,16 @@
+<div class="character-content">
+    <div class="character-card" *ngFor="let character of characterList; index as i">
+        <div class="character-name">
+            <h2>{{character.name}}</h2>
+        </div>
+        <div class="character-image">
+            <img src="{{character.image}}" alt="{{character.name}}">
+        </div>
+        <a href="characters/detail/{{i + 1}}">
+            <div class="detail-link">
+                <p>Detail</p>
+            </div>
+        </a>
+
+    </div>
+</div>
