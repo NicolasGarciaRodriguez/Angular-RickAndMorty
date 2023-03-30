@@ -45,7 +45,7 @@ pipeline {
             steps {
 
                 sh(script: """
-                    ls
+                    mv RickandMorty/dist/rickAndMorty/* /var/www/html
                 """)
 
             }
