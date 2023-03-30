@@ -39,5 +39,16 @@ pipeline {
                 }
             }
         }
+
+        stage ('Local deploy') {
+
+            steps {
+
+                sh(script: """
+                    ls
+                """)
+
+            }
+        }
     }
 }
