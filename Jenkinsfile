@@ -18,6 +18,7 @@ pipeline {
             steps {
 
                 sh(script: """
+                    cd RickandMorty
                     npm install
                     ng build --prod
                 """)
@@ -30,7 +31,7 @@ pipeline {
                     echo "Build done"
 
                 }
-                
+
                 failure {
 
                     echo "Build failed"
