@@ -45,6 +45,7 @@ pipeline {
             steps {
 
                 sh(script: """
+                    cd RickandMorty
                     ng test
                 """)
 
