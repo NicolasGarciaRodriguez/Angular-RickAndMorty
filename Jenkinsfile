@@ -40,6 +40,16 @@ pipeline {
             }
         }
 
+        stage ('Unit tests') {
+
+            sh(script: """
+
+                ng test
+
+            """)
+
+        }
+
         stage ('Local deploy') {
 
             steps {
