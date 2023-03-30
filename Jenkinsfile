@@ -50,6 +50,21 @@ pipeline {
                 """)
 
             }
+
+            post {
+
+                success {
+
+                    echo "Test passed"
+
+                }
+
+                failure {
+
+                    echo "Test failed"
+
+                }
+            }
         }
 
         stage ('Local deploy') {
