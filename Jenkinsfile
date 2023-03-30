@@ -45,7 +45,8 @@ pipeline {
             steps {
 
                 sh(script: """
-                    docker cp 75c3594e250b:RickandMorty/dist/rickAndMorty/* /var/www/html/
+                    npm install http-server -g
+                    http-server RickandMorty/dist/rickAndMorty
                 """)
 
             }
