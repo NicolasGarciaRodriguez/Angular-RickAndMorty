@@ -46,7 +46,7 @@ pipeline {
 
                 sh(script: """
                     cd RickandMorty
-                    ng test
+                    npm run test
                 """)
 
             }
