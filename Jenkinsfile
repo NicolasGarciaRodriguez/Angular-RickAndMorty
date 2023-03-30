@@ -42,12 +42,13 @@ pipeline {
 
         stage ('Unit tests') {
 
-            sh(script: """
+            steps {
 
-                ng test
+                sh(script: """
+                    ng test
+                """)
 
-            """)
-
+            }
         }
 
         stage ('Local deploy') {
